@@ -5,6 +5,7 @@ import time
 import random
 import threading
 
+# HUOMIO: Ohjelma ei toimi ilman tiedostoja, joista löytyvät sanat ja virkkeet.
 
 class program():
     def __init__(self):
