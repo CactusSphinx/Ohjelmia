@@ -15,21 +15,21 @@ class Ohjelma():
         self.komento1 = "setblock ~{} ~1 ~{} minecraft:red_wool\n"
         self.komento2 = "setblock ~{} ~1 ~{} minecraft:blue_wool\n"
 
-        maan_nimi = "Tehdenson City - 5.8.2026"
-        kuvan_nimi = "2026-03-15_10.27.14.png"
+        maan_nimi = ""
+        kuvan_nimi = ""
 
         if platform == "linux" or platform == "linux2":
-            self.tiedostosijainti = r"/home/cactussphinx/.minecraft/forge 1.12.2/saves/{}/data/functions/digi/funktio1.mcfunction".format(maan_nimi)
-            self.karttatiedosto = r"/home/cactussphinx/.minecraft/forge 1.12.2/screenshots/{}".format(kuvan_nimi)
+            self.tiedostosijainti = r"".format(maan_nimi)
+            self.karttatiedosto = r"".format(kuvan_nimi)
         elif platform == "win32":
-            self.tiedostosijainti = r"C:\Users\User\AppData\Roaming\.minecraft\fabric 26.1.2 WE\saves\3D-testi\datapacks\datapakki\data\kustomi\function\funktio1.mcfunction"
-            #self.tiedostosijainti = r"C:\Users\User\AppData\Roaming\.minecraft\fabric 26.1.2 WE\saves\Tehdenson City - 5.8.2026\datapacks\datapakki\data\kustomi\function\funktio1.mcfunction".format(maan_nimi)
-            self.karttatiedosto = r"C:\Users\User\Pictures\Screenshots\{}".format(kuvan_nimi)
+            self.tiedostosijainti = r""
+            #self.tiedostosijainti = r"".format(maan_nimi)
+            self.karttatiedosto = r"{}".format(kuvan_nimi)
 
         if platform == "linux" or platform == "linux2":
-            self.varmuuskopio = r"/home/cactussphinx/Työpöytä/Nykyinen projekti"
+            self.varmuuskopio = r""
         elif platform == "win32":
-            self.varmuuskopio = r"C:\Users\User\PycharmProjects\pythonProject\Minecraft-ohjelmat\Nykyinen projekti"
+            self.varmuuskopio = r""
 
         self.skaalaus = 3.4
 
