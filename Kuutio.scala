@@ -1,6 +1,5 @@
 import scala.math.*
 import scala.collection.mutable.Buffer
-import scala.util.control.Breaks._
 
 val tarkkuus = 12
 val iteraatiot = 300
