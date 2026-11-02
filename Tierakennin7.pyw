@@ -6,6 +6,8 @@ from datetime import datetime
 import turtle
 import sympy
 
+# HUOMIO: Ohjelma ei toimi, jos ei ole määritellyt tiettyjä tiedostopolkuja (esim. self.karttatiedosto).
+
 class Ohjelma():
     def __init__(self):
         self.fontti = ("Courier", 24, "bold")
