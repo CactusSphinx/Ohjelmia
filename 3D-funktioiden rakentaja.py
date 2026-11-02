@@ -12,7 +12,7 @@ ratkaistu_z = input("z:")
 ratkaistu_x = input("x:")
 ratkaistu_y = input("y:")
 
-tiedostosijainti = r"C:\Users\User\AppData\Roaming\.minecraft\forge 1.12.2\saves\Tehdenson City - 5.8.2026\data\functions\digi\funktio.mcfunction"
+tiedostosijainti = r"" # TÄHÄN TIEDOSTOSIJAINTI
 
 open(tiedostosijainti, 'w').close()
 
